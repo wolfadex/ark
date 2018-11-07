@@ -1,0 +1,15 @@
+{
+  "name": "ark",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "elm-live src/Main.elm -e node_modules/.bin/elm -o -p 3333 -- --debug",
+    "dev2": "elm-serve -o -w ./src -v"
+  },
+  "devDependencies": {
+    "elm": "^0.19.0-bugfix2",
+    "elm-live": "^3.2.1",
+    "elm-serve": "^0.3.0"
+  }
+}
